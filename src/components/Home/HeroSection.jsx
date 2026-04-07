@@ -104,35 +104,7 @@ const HomeSection = () => {
         </div>
       </div>
 
-      <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex flex-col items-end">
-        <button className="w-[58px] h-[58px] bg-lime-400 flex items-center justify-center rounded-l-[4px] shadow-[0_0_20px_rgba(163,230,53,0.35)] hover:brightness-110 transition">
-          <img
-            src="/setting.svg"
-            alt="setting"
-            className="w-7 h-7 object-contain animate-spin-slow"
-          />
-        </button>
-
-        <div className="mt-16 shadow-xl">
-          <button className="h-[52px] min-w-[140px] bg-[#f83368] text-white px-5 flex items-center gap-3 rounded-l-[4px] text-[13px] font-semibold tracking-[1px]">
-            <img
-              src="/related-icon.png"
-              alt="related"
-              className="w-5 h-5 object-contain"
-            />
-            RELATED
-          </button>
-
-          <button className="h-[52px] min-w-[140px] bg-white text-black px-5 flex items-center gap-3 rounded-l-[4px] text-[13px] font-semibold tracking-[1px] border-t border-black/10">
-            <img
-              src="/cart-icon.png"
-              alt="buy now"
-              className="w-5 h-5 object-contain"
-            />
-            BUY NOW
-          </button>
-        </div>
-      </div>
+     
     </section>
   );
 };
