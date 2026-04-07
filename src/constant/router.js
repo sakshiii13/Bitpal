@@ -11,3 +11,18 @@ export const Routers = {
     CONTACT: "/contact"
 }
 
+
+export const UserRouters = {
+    DASHBOARD: "/dashboard",
+    PROFILE: "/profile",
+    SETTINGS: "/settings",
+    LOGOUT: "/logout"
+}
+
+export const AdminRouters = {
+    DASHBOARD: "/admin/dashboard",
+    USERS: "/admin/users",
+    PROJECTS: "/admin/projects",
+    SETTINGS: "/admin/settings",
+    LOGOUT: "/admin/logout"
+}
