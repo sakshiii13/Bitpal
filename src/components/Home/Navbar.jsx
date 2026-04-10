@@ -80,7 +80,7 @@ export default function Navbar() {
 
           {/* LOGIN BUTTON */}
           <button
-            onClick={() => navigate("/login")} // 👈 redirect here
+            onClick={() => navigate("/login")} 
             className="border border-lime-400 px-6 py-2 rounded-full hover:bg-lime-400 hover:text-black transition"
           >
             LOGIN

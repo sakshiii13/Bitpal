@@ -1,7 +1,8 @@
 export const Routers = {
 
    LOGIN: "/login",
-
+   REGISTER: "/register",
+   DASHBOARD: "/dashboard",
     HOME: "/",
     ABOUT: "/about",
     SERVICES: "/src/component/Home/Services.jsx",
@@ -14,9 +15,11 @@ export const Routers = {
 
 export const UserRouters = {
     DASHBOARD: "/dashboard",
-    PROFILE: "/profile",
-    SETTINGS: "/settings",
-    LOGOUT: "/logout"
+    PROFILE: "/user/profile",
+    SETTINGS: "/user/settings",
+    INCOME_HISTORY: "/user/income-history",
+    LOGOUT: "/user/logout"
+
 }
 
 export const AdminRouters = {

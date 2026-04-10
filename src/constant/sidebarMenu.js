@@ -1,4 +1,4 @@
-import { MdDashboard } from "react-icons/md";
+import { MdDashboard, MdPerson, MdSettings } from "react-icons/md";
 import { AdminRouters, UserRouters } from "./router";
 
 export const sidebarMenu = {
@@ -11,14 +11,20 @@ export const sidebarMenu = {
     {
       title: "Profile",
       path: UserRouters.PROFILE,
-      icon: MdDashboard,
+      icon: MdPerson,      
     },
     {
       title: "Settings",
       path: UserRouters.SETTINGS,
-      icon: MdDashboard,
+      icon: MdSettings,    
     },
+  {
+      title: "Income History",
+      path: UserRouters.INCOME_HISTORY,
+      icon: MdSettings,
+  }
   ],
+
   Admin: [
     {
       title: "Dashboard",
@@ -28,7 +34,7 @@ export const sidebarMenu = {
     {
       title: "Users",
       path: AdminRouters.USERS,
-      icon: MdDashboard,
+      icon: MdPerson,
     },
     {
       title: "Projects",
@@ -38,7 +44,7 @@ export const sidebarMenu = {
     {
       title: "Settings",
       path: AdminRouters.SETTINGS,
-      icon: MdDashboard,
+      icon: MdSettings,
     },
   ],
 };
